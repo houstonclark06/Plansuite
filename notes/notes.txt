@@ -1,0 +1,33 @@
+aircraft-performance
+
+A basic Java desktop application to complete Cessna 172S
+POH calculations automatically.
+
+Aircraft Details:
+
+(data disclaimer)
+
+Calculation Parameters:
+
+    Airplane Configuration:
+        -takeoff weight
+        -usable fuel
+
+    Takeoff Conditions:
+        -field pressure altitude
+        -temperature
+        -wind component along runway
+        -field length
+
+    Cruise Conditions:
+        -total distance
+        -pressure altitude
+        -temperature
+        -expected wind enroute
+
+    Landing Conditions:
+        -field pressure altitude
+        -temperature
+        -field length
+
+

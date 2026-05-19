@@ -1,0 +1,64 @@
+# =========================
+# OS / macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+._*
+
+# =========================
+# Maven / Java build output
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE files
+# =========================
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# =========================
+# Temporary / local files
+# =========================
+temp/
+tmp/
+out/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Raw aviation reference docs
+# =========================
+docs/*.pdf
+
+# =========================
+# Misc
+# =========================
+Thumbs.db
