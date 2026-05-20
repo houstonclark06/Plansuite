@@ -30,4 +30,7 @@ Calculation Parameters:
         -temperature
         -field length
 
+Important To-Do:
+- Re-Check accuracy and organization of Cessna 172-S performance data
+
 

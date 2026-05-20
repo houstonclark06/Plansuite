@@ -5,13 +5,29 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.houstonclark06</groupId>
-
     <artifactId>aircraft-performance</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
 
-    <version>1.0-SNAPSHOT</version>
+    <name>Aircraft Performance Calculator</name>
+
+    <description>
+        Aircraft performance calculator and interpolation engine.
+    </description>
+
+    <url>
+        https://github.com/houstonclark06/aircraft-performance
+    </url>
 
     <properties>
-        <maven.compiler.release>25</maven.compiler.release>
+        <maven.compiler.release>21</maven.compiler.release>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.5.32</version>
+        </dependency>
+    </dependencies>
+    
 </project>
