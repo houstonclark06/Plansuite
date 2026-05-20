@@ -1,0 +1,1001 @@
+[
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 83,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 11.1
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 77,
+    "true_airspeed_kts": 118,
+    "fuel_flow_gph": 10.5
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 72,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 9.9
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 78,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 10.6
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 73,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 9.9
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 68,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 9.4
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 69,
+    "true_airspeed_kts": 111,
+    "fuel_flow_gph": 9.6
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 64,
+    "true_airspeed_kts": 110,
+    "fuel_flow_gph": 9.0
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 60,
+    "true_airspeed_kts": 109,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 61,
+    "true_airspeed_kts": 105,
+    "fuel_flow_gph": 8.6
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 104,
+    "fuel_flow_gph": 8.1
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 53,
+    "true_airspeed_kts": 102,
+    "fuel_flow_gph": 7.7
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 53,
+    "true_airspeed_kts": 99,
+    "fuel_flow_gph": 7.7
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 50,
+    "true_airspeed_kts": 97,
+    "fuel_flow_gph": 7.3
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 47,
+    "true_airspeed_kts": 95,
+    "fuel_flow_gph": 6.9
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 47,
+    "true_airspeed_kts": 92,
+    "fuel_flow_gph": 6.9
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 44,
+    "true_airspeed_kts": 90,
+    "fuel_flow_gph": 6.6
+  },
+  {
+    "pressure_altitude_ft": 2000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 42,
+    "true_airspeed_kts": 89,
+    "fuel_flow_gph": 6.3
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 83,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 11.1
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 77,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 10.4
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 72,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 9.8
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 79,
+    "true_airspeed_kts": 118,
+    "fuel_flow_gph": 10.6
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 73,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 9.9
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2550,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 68,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 9.4
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 74,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 10.1
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 69,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 9.5
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 64,
+    "true_airspeed_kts": 114,
+    "fuel_flow_gph": 8.9
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 65,
+    "true_airspeed_kts": 110,
+    "fuel_flow_gph": 9.1
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 61,
+    "true_airspeed_kts": 109,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 107,
+    "fuel_flow_gph": 8.1
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 58,
+    "true_airspeed_kts": 104,
+    "fuel_flow_gph": 8.2
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 102,
+    "fuel_flow_gph": 7.7
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 101,
+    "fuel_flow_gph": 7.3
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 98,
+    "fuel_flow_gph": 7.4
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 48,
+    "true_airspeed_kts": 96,
+    "fuel_flow_gph": 7.0
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 45,
+    "true_airspeed_kts": 94,
+    "fuel_flow_gph": 6.7
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 45,
+    "true_airspeed_kts": 91,
+    "fuel_flow_gph": 6.6
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 42,
+    "true_airspeed_kts": 89,
+    "fuel_flow_gph": 6.4
+  },
+  {
+    "pressure_altitude_ft": 4000,
+    "engine_speed_rpm": 2100,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 40,
+    "true_airspeed_kts": 87,
+    "fuel_flow_gph": 6.1
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 83,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 11.1
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 77,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 10.4
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 72,
+    "true_airspeed_kts": 121,
+    "fuel_flow_gph": 9.8
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 78,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 10.6
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 73,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 9.9
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 68,
+    "true_airspeed_kts": 118,
+    "fuel_flow_gph": 9.4
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 70,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 9.6
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 65,
+    "true_airspeed_kts": 114,
+    "fuel_flow_gph": 9.0
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 60,
+    "true_airspeed_kts": 112,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 62,
+    "true_airspeed_kts": 109,
+    "fuel_flow_gph": 8.6
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 108,
+    "fuel_flow_gph": 8.2
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 106,
+    "fuel_flow_gph": 7.7
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 103,
+    "fuel_flow_gph": 7.8
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 101,
+    "fuel_flow_gph": 7.4
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 48,
+    "true_airspeed_kts": 99,
+    "fuel_flow_gph": 7.0
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 48,
+    "true_airspeed_kts": 96,
+    "fuel_flow_gph": 7.1
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 45,
+    "true_airspeed_kts": 94,
+    "fuel_flow_gph": 6.7
+  },
+  {
+    "pressure_altitude_ft": 6000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 43,
+    "true_airspeed_kts": 92,
+    "fuel_flow_gph": 6.4
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 83,
+    "true_airspeed_kts": 125,
+    "fuel_flow_gph": 11.1
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 77,
+    "true_airspeed_kts": 124,
+    "fuel_flow_gph": 10.4
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 71,
+    "true_airspeed_kts": 123,
+    "fuel_flow_gph": 9.7
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 78,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 10.5
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 72,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 9.9
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 67,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 9.3
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 74,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 10.0
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 68,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 9.4
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 64,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 8.9
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 65,
+    "true_airspeed_kts": 114,
+    "fuel_flow_gph": 9.1
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 61,
+    "true_airspeed_kts": 112,
+    "fuel_flow_gph": 8.6
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 111,
+    "fuel_flow_gph": 8.1
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 58,
+    "true_airspeed_kts": 108,
+    "fuel_flow_gph": 8.2
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 106,
+    "fuel_flow_gph": 7.8
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 104,
+    "fuel_flow_gph": 7.4
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 52,
+    "true_airspeed_kts": 101,
+    "fuel_flow_gph": 7.5
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 48,
+    "true_airspeed_kts": 99,
+    "fuel_flow_gph": 7.1
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 46,
+    "true_airspeed_kts": 97,
+    "fuel_flow_gph": 6.8
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 46,
+    "true_airspeed_kts": 94,
+    "fuel_flow_gph": 6.8
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 43,
+    "true_airspeed_kts": 92,
+    "fuel_flow_gph": 6.5
+  },
+  {
+    "pressure_altitude_ft": 8000,
+    "engine_speed_rpm": 2200,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 41,
+    "true_airspeed_kts": 90,
+    "fuel_flow_gph": 6.2
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 78,
+    "true_airspeed_kts": 124,
+    "fuel_flow_gph": 10.5
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 72,
+    "true_airspeed_kts": 123,
+    "fuel_flow_gph": 9.8
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2700,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 67,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 9.3
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 73,
+    "true_airspeed_kts": 122,
+    "fuel_flow_gph": 10.0
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 68,
+    "true_airspeed_kts": 120,
+    "fuel_flow_gph": 9.4
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 63,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 8.9
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 69,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 9.5
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 64,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 9.0
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 60,
+    "true_airspeed_kts": 115,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 62,
+    "true_airspeed_kts": 113,
+    "fuel_flow_gph": 8.7
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 111,
+    "fuel_flow_gph": 8.2
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 109,
+    "fuel_flow_gph": 7.8
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 55,
+    "true_airspeed_kts": 106,
+    "fuel_flow_gph": 7.9
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 104,
+    "fuel_flow_gph": 7.5
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 49,
+    "true_airspeed_kts": 102,
+    "fuel_flow_gph": 7.1
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 49,
+    "true_airspeed_kts": 100,
+    "fuel_flow_gph": 7.2
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 46,
+    "true_airspeed_kts": 97,
+    "fuel_flow_gph": 6.8
+  },
+  {
+    "pressure_altitude_ft": 10000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 44,
+    "true_airspeed_kts": 95,
+    "fuel_flow_gph": 6.5
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 69,
+    "true_airspeed_kts": 121,
+    "fuel_flow_gph": 9.5
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 64,
+    "true_airspeed_kts": 119,
+    "fuel_flow_gph": 8.9
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2650,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 60,
+    "true_airspeed_kts": 117,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 65,
+    "true_airspeed_kts": 118,
+    "fuel_flow_gph": 9.1
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 61,
+    "true_airspeed_kts": 116,
+    "fuel_flow_gph": 8.5
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2600,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 57,
+    "true_airspeed_kts": 114,
+    "fuel_flow_gph": 8.1
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 58,
+    "true_airspeed_kts": 111,
+    "fuel_flow_gph": 8.3
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 54,
+    "true_airspeed_kts": 109,
+    "fuel_flow_gph": 7.8
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2500,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 51,
+    "true_airspeed_kts": 107,
+    "fuel_flow_gph": 7.4
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 52,
+    "true_airspeed_kts": 105,
+    "fuel_flow_gph": 7.5
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 49,
+    "true_airspeed_kts": 102,
+    "fuel_flow_gph": 7.1
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2400,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 46,
+    "true_airspeed_kts": 100,
+    "fuel_flow_gph": 6.8
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_minus_20_c",
+    "isa_temperature_delta_c": -20,
+    "brake_horsepower_percent": 47,
+    "true_airspeed_kts": 98,
+    "fuel_flow_gph": 6.9
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "standard_isa",
+    "isa_temperature_delta_c": 0,
+    "brake_horsepower_percent": 44,
+    "true_airspeed_kts": 95,
+    "fuel_flow_gph": 6.6
+  },
+  {
+    "pressure_altitude_ft": 12000,
+    "engine_speed_rpm": 2300,
+    "outside_air_temperature_condition": "isa_plus_20_c",
+    "isa_temperature_delta_c": 20,
+    "brake_horsepower_percent": 41,
+    "true_airspeed_kts": 92,
+    "fuel_flow_gph": 6.3
+  }
+]

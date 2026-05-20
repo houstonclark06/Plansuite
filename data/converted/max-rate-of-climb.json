@@ -1,0 +1,198 @@
+[
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 0,
+    "best_rate_climb_speed_kias": 74,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 855
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 0,
+    "best_rate_climb_speed_kias": 74,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 785
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 0,
+    "best_rate_climb_speed_kias": 74,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 710
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 0,
+    "best_rate_climb_speed_kias": 74,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 645
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 2000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 760
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 2000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 695
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 2000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 625
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 2000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 560
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 4000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 685
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 4000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 620
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 4000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 555
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 4000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 495
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 6000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 575
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 6000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 515
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 6000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 450
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 6000,
+    "best_rate_climb_speed_kias": 73,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 390
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 8000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 465
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 8000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 405
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 8000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 345
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 8000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 285
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 10000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 360
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 10000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 300
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 10000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 240
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 10000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": 180
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 12000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": -20,
+    "rate_of_climb_fpm": 255
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 12000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 0,
+    "rate_of_climb_fpm": 195
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 12000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 20,
+    "rate_of_climb_fpm": 135
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 12000,
+    "best_rate_climb_speed_kias": 72,
+    "outside_air_temperature_c": 40,
+    "rate_of_climb_fpm": null
+  }
+]

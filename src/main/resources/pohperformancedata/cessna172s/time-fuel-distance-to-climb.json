@@ -1,0 +1,119 @@
+[
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 0,
+    "climb_speed_kias": 74,
+    "rate_of_climb_fpm": 730,
+    "elapsed_time_from_sea_level_min": 0,
+    "fuel_used_from_sea_level_gal": 0.0,
+    "ground_distance_from_sea_level_nm": 0
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 1000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 695,
+    "elapsed_time_from_sea_level_min": 1,
+    "fuel_used_from_sea_level_gal": 0.4,
+    "ground_distance_from_sea_level_nm": 2
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 2000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 655,
+    "elapsed_time_from_sea_level_min": 3,
+    "fuel_used_from_sea_level_gal": 0.8,
+    "ground_distance_from_sea_level_nm": 4
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 3000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 620,
+    "elapsed_time_from_sea_level_min": 4,
+    "fuel_used_from_sea_level_gal": 1.2,
+    "ground_distance_from_sea_level_nm": 6
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 4000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 600,
+    "elapsed_time_from_sea_level_min": 6,
+    "fuel_used_from_sea_level_gal": 1.5,
+    "ground_distance_from_sea_level_nm": 8
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 5000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 550,
+    "elapsed_time_from_sea_level_min": 8,
+    "fuel_used_from_sea_level_gal": 1.9,
+    "ground_distance_from_sea_level_nm": 10
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 6000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 505,
+    "elapsed_time_from_sea_level_min": 10,
+    "fuel_used_from_sea_level_gal": 2.2,
+    "ground_distance_from_sea_level_nm": 13
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 7000,
+    "climb_speed_kias": 73,
+    "rate_of_climb_fpm": 455,
+    "elapsed_time_from_sea_level_min": 12,
+    "fuel_used_from_sea_level_gal": 2.6,
+    "ground_distance_from_sea_level_nm": 16
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 8000,
+    "climb_speed_kias": 72,
+    "rate_of_climb_fpm": 410,
+    "elapsed_time_from_sea_level_min": 14,
+    "fuel_used_from_sea_level_gal": 3.0,
+    "ground_distance_from_sea_level_nm": 19
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 9000,
+    "climb_speed_kias": 72,
+    "rate_of_climb_fpm": 360,
+    "elapsed_time_from_sea_level_min": 17,
+    "fuel_used_from_sea_level_gal": 3.4,
+    "ground_distance_from_sea_level_nm": 22
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 10000,
+    "climb_speed_kias": 72,
+    "rate_of_climb_fpm": 315,
+    "elapsed_time_from_sea_level_min": 20,
+    "fuel_used_from_sea_level_gal": 3.9,
+    "ground_distance_from_sea_level_nm": 27
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 11000,
+    "climb_speed_kias": 72,
+    "rate_of_climb_fpm": 265,
+    "elapsed_time_from_sea_level_min": 24,
+    "fuel_used_from_sea_level_gal": 4.4,
+    "ground_distance_from_sea_level_nm": 32
+  },
+  {
+    "aircraft_weight_lb": 2550,
+    "pressure_altitude_ft": 12000,
+    "climb_speed_kias": 72,
+    "rate_of_climb_fpm": 220,
+    "elapsed_time_from_sea_level_min": 28,
+    "fuel_used_from_sea_level_gal": 5.0,
+    "ground_distance_from_sea_level_nm": 38
+  }
+]
