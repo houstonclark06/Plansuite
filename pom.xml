@@ -9,17 +9,15 @@
     <version>0.1.0-SNAPSHOT</version>
 
     <name>Aircraft Performance Calculator</name>
-
-    <description>
-        Aircraft performance calculator and interpolation engine.
-    </description>
-
-    <url>
-        https://github.com/houstonclark06/aircraft-performance
-    </url>
+    <description>Aircraft performance calculator and interpolation engine.</description>
+    <url>https://github.com/houstonclark06/aircraft-performance</url>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <junit.version>5.11.4</junit.version>
+        <maven.surefire.version>3.5.2</maven.surefire.version>
     </properties>
 
     <dependencies>
@@ -28,6 +26,22 @@
             <artifactId>logback-classic</artifactId>
             <version>1.5.32</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-    
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.version}</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
