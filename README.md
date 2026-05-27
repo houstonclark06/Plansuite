@@ -43,7 +43,7 @@ Always verify calculations using the official aircraft POH.
 ## Acknowledgements
 
 - Portions of this README file generated and edited by ChatGPT (OpenAI)
-- Codex and ChatGPT (OpenAI) assistance used for portions of debugging, design suggestions, and Java documentation search
+- Codex and ChatGPT (OpenAI) assistance used for portions of debugging, design suggestions, tests, Maven setup and Java documentation search
 
 ## License
 

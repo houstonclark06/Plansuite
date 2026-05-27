@@ -1,6 +1,6 @@
 package io.github.houstonclark06.aircraftperformance.interpolation;
 
-/** Provides interpolation methods for aircraft performance calculations. */
+/** Utility methods for interpolation. */
 public final class Interpolator {
 
   private Interpolator() {
@@ -10,7 +10,7 @@ public final class Interpolator {
   // TODO: Implement bilinear interpolation.
 
   /**
-   * Calculates a linearly interpolated value between two points.
+   * Calculates linear interpolation between two points.
    *
    * @param x the x-value to interpolate
    * @param x0 the lower x-value
@@ -18,9 +18,22 @@ public final class Interpolator {
    * @param x1 the upper x-value
    * @param y1 the y-value corresponding to {@code x1}
    * @return the interpolated y-value at {@code x}
+   * @throws IllegalArgumentException if {@code x0 == x1}
+   * @throws IllegalArgumentException if {@code x} is outside of x0 to x1 range
    */
   public static double interpolateLinear(double x, double x0, double y0, double x1, double y1) {
-    // TODO: Handle edge cases.
+
+    // Throw IllegalArgumentException if x0 == x1
+    if (x0 == x1) {
+      throw new IllegalArgumentException("x0 and x1 must be different values (forming a range).");
+    }
+
+    // Throw IllegalArgumentException if x is not between x0 and x1.
+    double lowerBound = Math.min(x0, x1);
+    double upperBound = Math.max(x0, x1);
+    if (x < lowerBound || x > upperBound) {
+      throw new IllegalArgumentException("x must be within the interpolation range.");
+    }
 
     // Calculate the relative fractional position within the x-range.
     double rangePositionFraction = (x - x0) / (x1 - x0);
