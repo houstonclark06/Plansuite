@@ -56,4 +56,57 @@ class InterpolatorTest {
     double result = Interpolator.interpolateLinear(5, 10, 100, 0, 0);
     assertEquals(50, result, TOLERANCE);
   }
+
+  @Test
+  void interpolateBilinear_whenXValuesAreEqual_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(3000, 3000, 3000, 15, 10, 20, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenYValuesAreEqual_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(3200, 3000, 4000, 10, 10, 10, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenXIsOutsideRange_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(4500, 3000, 4000, 15, 10, 20, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenYIsOutsideRange_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(3200, 3000, 4000, 25, 10, 20, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenXAndYWithinRange_interpolatesCorrectly() {
+    double result =
+        Interpolator.interpolateBilinear(3200, 3000, 4000, 15, 10, 20, 1050, 1150, 1130, 1240);
+    assertEquals(1117, result, TOLERANCE);
+  }
+
+  @Test
+  void interpolateBilinear_whenAtLowerLeftCorner_returnsLowerLeftValue() {
+    double result =
+        Interpolator.interpolateBilinear(3000, 3000, 4000, 10, 10, 20, 1050, 1150, 1130, 1240);
+    assertEquals(1050, result, TOLERANCE);
+  }
+
+  @Test
+  void interpolateBilinear_whenAtUpperRightCorner_returnsUpperRightValue() {
+    double result =
+        Interpolator.interpolateBilinear(4000, 3000, 4000, 20, 10, 20, 1050, 1150, 1130, 1240);
+    assertEquals(1240, result, TOLERANCE);
+  }
 }
