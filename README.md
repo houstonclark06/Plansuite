@@ -1,6 +1,6 @@
 # Aircraft Performance
 
-Aircraft Performance is a Java desktop application for aircraft performance calculations.
+Aircraft Performance is a Java project for aircraft performance calculations.
 
 ## Project Goals
 
@@ -8,16 +8,53 @@ This project is being developed to explore:
 - desktop application development in Java
 - integration of online aviation weather data
 
-The long-term goal is to create a useful desktop app that can be deployed in General Aviation FBOs and flight schools to streamline aircraft performance estimations on routine practice flights, thus increasing flight planning compliance and overall safety.
+The long-term goal is to create a useful desktop app that can be deployed in general aviation FBOs and flight schools to assist with aircraft performance calculations for routine general aviation operations, thus increasing flight planning compliance and overall safety.
 
 ## Status
 
 Early development.
 
+## Current Functionality
+
+- Linear interpolation utility
+- Bilinear interpolation utility
+- Unit tests for interpolation behavior and edge cases
+- Initial project structure for Cessna 172S performance data processing
+
 ## Planned Features
 
 - Performance calculations based on Cessna 172S aircraft POH
 - Integration of data from Aviation Weather Center
+
+## Data Sources
+
+Performance data is derived from Cessna 172S Pilot's Operating Handbook performance tables for development and educational purposes.
+
+## Project Structure
+```text
+aircraft-performance/
+├── LICENSE
+├── README.md
+├── pom.xml
+├── data
+│   ├── converted
+│   └── raw
+├── docs
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── io/github/houstonclark06/aircraftperformance
+│   │   │       └── interpolation
+│   │   │           └── Interpolator.java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       │   └── io/github/houstonclark06/aircraftperformance
+│       │       └── interpolation
+│       │           └── InterpolatorTest.java
+│       └── resources
+└── tools
+```
 
 ## Tech Stack
 
@@ -27,12 +64,22 @@ Early development.
 
 ## Requirements
 
-- Java 25 or newer
+- Java 21 or newer
 - Maven 3.9+
 
-## Build
+## Building and Testing
 
-Build instructions will be added as development progresses.
+Build the project:
+
+```bash
+mvn clean install
+```
+
+Run tests:
+
+```bash
+mvn test
+```
 
 ## Disclaimer
 
@@ -47,4 +94,4 @@ Always verify calculations using the official aircraft POH.
 
 ## License
 
-MIT
+This project is licensed under the MIT License.
