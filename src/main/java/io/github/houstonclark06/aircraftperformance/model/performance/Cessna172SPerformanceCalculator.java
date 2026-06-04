@@ -20,6 +20,6 @@ final class Cessna172SPerformanceCalculator {
     double takeoffWeight = aircraft.getWeightAndBalanceProfile().getTakeoffWeight();
 
     // TODO: Develop from stub method.
-    return null;
+    throw new UnsupportedOperationException("Not implemented yet.");
   }
 }

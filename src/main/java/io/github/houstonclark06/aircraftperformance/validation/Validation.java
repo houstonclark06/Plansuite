@@ -31,7 +31,7 @@ public final class Validation {
   }
 
   public static String requireNonBlank(String value, String name) {
-    if (value.isBlank()) {
+    if (value == null || value.isBlank()) {
       throw new IllegalArgumentException(name + " cannot be blank");
     }
 

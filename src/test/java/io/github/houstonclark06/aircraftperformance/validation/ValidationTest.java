@@ -145,4 +145,9 @@ class ValidationTest {
   void requireNonBlank_whenValueIsWhitespace_throwsIllegalArgumentException() {
     assertThrows(IllegalArgumentException.class, () -> Validation.requireNonBlank("   ", "value"));
   }
+
+  @Test
+  void requireNonBlank_whenValueIsNull_throwsIllegalArgumentException() {
+    assertThrows(IllegalArgumentException.class, () -> Validation.requireNonBlank(null, "value"));
+  }
 }
