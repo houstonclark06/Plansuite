@@ -62,5 +62,5 @@ docs/*.pdf
 # Misc
 # =========================
 Thumbs.db
-notes/
+notes/notes.txt
 docs/code-review-notes.md
