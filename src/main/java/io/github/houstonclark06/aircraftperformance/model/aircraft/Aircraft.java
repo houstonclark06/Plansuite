@@ -1,18 +1,20 @@
 package io.github.houstonclark06.aircraftperformance.model.aircraft;
 
+import io.github.houstonclark06.aircraftperformance.validation.Validation;
+import java.util.Objects;
+
 /** Represents a generic aircraft with properties common to all supported aircraft. */
 abstract class Aircraft {
   private final String tailNumber;
 
   protected Aircraft(String tailNumber) {
-    if (tailNumber == null || tailNumber.isBlank()) {
-      throw new IllegalArgumentException("tailNumber cannot be blank");
-    }
-
-    this.tailNumber = tailNumber;
+    this.tailNumber =
+        Validation.requireNonBlank(
+                Objects.requireNonNull(tailNumber, "tailNumber cannot be null"), "tailNumber")
+            .trim();
   }
 
-  private String getTailNumber() {
+  String getTailNumber() {
     return this.tailNumber;
   }
 }

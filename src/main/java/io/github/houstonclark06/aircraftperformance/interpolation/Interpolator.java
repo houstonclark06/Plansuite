@@ -1,5 +1,7 @@
 package io.github.houstonclark06.aircraftperformance.interpolation;
 
+import io.github.houstonclark06.aircraftperformance.validation.Validation;
+
 /** Utility methods for interpolation. */
 public final class Interpolator {
 
@@ -11,9 +13,9 @@ public final class Interpolator {
    * Calculates linear interpolation between two points.
    *
    * @param x the x-value to interpolate
-   * @param x0 the lower x-value
+   * @param x0 the first x-value
    * @param y0 the y-value corresponding to {@code x0}
-   * @param x1 the upper x-value
+   * @param x1 the second x-value
    * @param y1 the y-value corresponding to {@code x1}
    * @return the interpolated y-value at {@code x}
    * @throws IllegalArgumentException if {@code x0 == x1}
@@ -21,12 +23,19 @@ public final class Interpolator {
    */
   public static double interpolateLinear(double x, double x0, double y0, double x1, double y1) {
 
-    // Throw IllegalArgumentException if x0 == x1
+    // Validate parameters
+    x = Validation.requireFinite(x, "x");
+    x0 = Validation.requireFinite(x0, "x0");
+    y0 = Validation.requireFinite(y0, "y0");
+    x1 = Validation.requireFinite(x1, "x1");
+    y1 = Validation.requireFinite(y1, "y1");
+
+    // Exception if x0 == x1
     if (Double.compare(x0, x1) == 0) {
       throw new IllegalArgumentException("x0 and x1 must be different values (forming a range).");
     }
 
-    // Throw IllegalArgumentException if x is not between x0 and x1.
+    // Exception if x is not between x0 and x1.
     double lowerBound = Math.min(x0, x1);
     double upperBound = Math.max(x0, x1);
     if (x < lowerBound || x > upperBound) {
@@ -46,11 +55,11 @@ public final class Interpolator {
    * Calculates bilinear interpolation between four points.
    *
    * @param x the x-value to interpolate
-   * @param x0 the lower x-value
-   * @param x1 the upper x-value
+   * @param x0 the first x-value
+   * @param x1 the second x-value
    * @param y the y-value to interpolate
-   * @param y0 the lower y-value
-   * @param y1 the upper y-value
+   * @param y0 the first y-value
+   * @param y1 the second y-value
    * @param q11 the value at {@code (x0, y0)}
    * @param q12 the value at {@code (x0, y1)}
    * @param q21 the value at {@code (x1, y0)}

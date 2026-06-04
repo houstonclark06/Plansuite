@@ -5,14 +5,14 @@ import java.time.Instant;
 import java.util.Objects;
 
 /** Base class for all weather briefings. */
-abstract class WeatherBriefing {
+public abstract class WeatherBriefing {
   private final Instant timestamp;
 
   protected WeatherBriefing(Clock clock) {
-    this.timestamp = Instant.now(Objects.requireNonNull(clock));
+    this.timestamp = Instant.now(Objects.requireNonNull(clock, "clock cannot be null"));
   }
 
-  private Instant getTimestamp() {
+  Instant getTimestamp() {
     return timestamp;
   }
 }

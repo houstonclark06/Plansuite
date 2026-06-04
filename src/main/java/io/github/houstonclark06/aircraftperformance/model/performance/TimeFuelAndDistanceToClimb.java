@@ -1,6 +1,6 @@
 package io.github.houstonclark06.aircraftperformance.model.performance;
 
-public record TimeFuelAndDistanceToClimb(
+record TimeFuelAndDistanceToClimb(
     double climbSpeedKias,
     double rateOfClimbFpm,
     double elapsedTimeFromSeaLevelMin,

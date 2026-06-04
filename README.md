@@ -1,6 +1,6 @@
 # Aircraft Performance
 
-Aircraft Performance is a Java project for aircraft performance calculations.
+Aircraft Performance is a Java project for aircraft performance calculations. It uses POH tables and interpolation to calculate important flight data. 
 
 ## Project Goals
 
@@ -21,46 +21,29 @@ Early development.
 - Unit tests for interpolation behavior and edge cases
 - Initial project structure for Cessna 172S performance data processing
 
-## Planned Features
+## Data Format
 
-- Performance calculations based on Cessna 172S aircraft POH
-- Integration of data from Aviation Weather Center
+Aircraft performance data is stored in JSON format.
 
 ## Data Sources
 
 Performance data is derived from Cessna 172S Pilot's Operating Handbook performance tables for development and educational purposes.
 
-## Project Structure
-```text
-aircraft-performance/
-├── LICENSE
-├── README.md
-├── pom.xml
-├── data
-│   ├── converted
-│   └── raw
-├── docs
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── io/github/houstonclark06/aircraftperformance
-│   │   │       └── interpolation
-│   │   │           └── Interpolator.java
-│   │   └── resources
-│   └── test
-│       ├── java
-│       │   └── io/github/houstonclark06/aircraftperformance
-│       │       └── interpolation
-│       │           └── InterpolatorTest.java
-│       └── resources
-└── tools
-```
-
 ## Tech Stack
 
-- Java
+- Java 21
 - Maven
-- Java Swing or JavaFX (depending on final GUI choice)
+- Jackson (JSON processing)
+- Logback (logging)
+- JUnit 5
+
+## Development Tools
+
+- Spotless (code formatting)
+- Google Java Format
+- Maven Enforcer Plugin
+- Codex (OpenAI)
+- ChatGPT (OpenAI)
 
 ## Requirements
 
@@ -81,6 +64,12 @@ Run tests:
 mvn test
 ```
 
+Run tests and formatting checks:
+
+```bash
+mvn verify
+```
+
 ## Disclaimer
 
 This software is not FAA-approved and must not be used as the sole source for flight planning or operational decisions.
@@ -89,8 +78,7 @@ Always verify calculations using the official aircraft POH.
 
 ## Acknowledgements
 
-- Portions of this README file generated and edited by ChatGPT (OpenAI)
-- Codex and ChatGPT (OpenAI) assistance used for portions of debugging, design suggestions, tests, Maven setup and Java documentation search
+OpenAI tools assisted with validation utility scaffolding, portions of unit test generation, debugging, documentation review, and project organization feedback. The core design, package structure, domain model, and performance calculation approach are the author’s own work.
 
 ## License
 

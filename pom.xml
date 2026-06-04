@@ -1,138 +1,197 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.houstonclark06</groupId>
-    <artifactId>aircraft-performance</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+  <groupId>io.github.houstonclark06</groupId>
+  <artifactId>aircraft-performance</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
 
-    <name>Aircraft Performance Calculator</name>
-    <description>Aircraft performance calculator and interpolation engine.</description>
+  <name>Aircraft Performance Calculator</name>
+  <description>General aviation performance calculator app using POH data.</description>
+  <url>https://github.com/houstonclark06/aircraft-performance</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>houstonclark06</id>
+      <name>Houston Clark</name>
+      <url>https://github.com/houstonclark06</url>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/houstonclark06/aircraft-performance.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/houstonclark06/aircraft-performance.git</developerConnection>
     <url>https://github.com/houstonclark06/aircraft-performance</url>
+  </scm>
 
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>https://opensource.org/licenses/MIT</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <developers>
-        <developer>
-            <id>houstonclark06</id>
-            <name>Houston Clark</name>
-            <url>https://github.com/houstonclark06</url>
-        </developer>
-    </developers>
+    <logback.version>1.5.32</logback.version>
+    <junit.version>5.12.0</junit.version>
 
-    <scm>
-        <connection>scm:git:https://github.com/houstonclark06/aircraft-performance.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/houstonclark06/aircraft-performance.git</developerConnection>
-        <url>https://github.com/houstonclark06/aircraft-performance</url>
-    </scm>
+    <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
+    <maven.surefire.version>3.5.2</maven.surefire.version>
+    <maven.enforcer.version>3.5.0</maven.enforcer.version>
+    <spotless.version>2.43.0</spotless.version>
+    <google-java-format.version>1.28.0</google-java-format.version>
 
-    <properties>
-        <maven.compiler.release>21</maven.compiler.release>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <jackson.version>2.20.0</jackson.version>
+  </properties>
 
-        <logback.version>1.5.32</logback.version>
-        <junit.version>5.12.0</junit.version>
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>${logback.version}</version>
+    </dependency>
 
-        <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
-        <maven.surefire.version>3.5.2</maven.surefire.version>
-        <maven.enforcer.version>3.5.0</maven.enforcer.version>
-        <spotless.version>2.43.0</spotless.version>
-        <google-java-format.version>1.28.0</google-java-format.version>
-    </properties>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
 
-    <dependencies>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
-        </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>${maven.enforcer.version}</version>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <version>${maven.enforcer.version}</version>
+        <executions>
+          <execution>
+            <id>enforce-java-and-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
 
-                <executions>
-                    <execution>
-                        <id>enforce-java-and-maven</id>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
+            <configuration>
+              <rules>
+                <requireJavaVersion>
+                  <version>[21,)</version>
+                </requireJavaVersion>
+                <requireMavenVersion>
+                  <version>[3.9.0,)</version>
+                </requireMavenVersion>
+                <dependencyConvergence />
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
 
-                        <configuration>
-                            <rules>
-                                <requireJavaVersion>
-                                    <version>[21,)</version>
-                                </requireJavaVersion>
-                                <requireMavenVersion>
-                                    <version>[3.9.0,)</version>
-                                </requireMavenVersion>
-                            </rules>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.plugin.version}</version>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.version}</version>
+        <configuration>
+          <release>${maven.compiler.release}</release>
+        </configuration>
+      </plugin>
 
-                <configuration>
-                    <release>${maven.compiler.release}</release>
-                </configuration>
-            </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${maven.surefire.version}</version>
+      </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.surefire.version}</version>
-            </plugin>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <version>${spotless.version}</version>
 
-            <plugin>
-                <groupId>com.diffplug.spotless</groupId>
-                <artifactId>spotless-maven-plugin</artifactId>
-                <version>${spotless.version}</version>
+        <configuration>
+          <java>
+            <googleJavaFormat>
+              <version>${google-java-format.version}</version>
+            </googleJavaFormat>
+            <importOrder />
+            <removeUnusedImports />
+            <trimTrailingWhitespace />
+            <endWithNewline />
+          </java>
 
-                <configuration>
-                    <java>
-                        <googleJavaFormat>
-                            <version>${google-java-format.version}</version>
-                        </googleJavaFormat>
-                        <importOrder />
-                        <removeUnusedImports />
-                        <trimTrailingWhitespace />
-                        <endWithNewline />
-                    </java>
-                </configuration>
+          <formats>
+            <format>
+              <includes>
+                <include>pom.xml</include>
+                <include>src/**/*.xml</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+            <format>
+              <includes>
+                <include>README.md</include>
+                <include>tools/**/*.md</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+            <format>
+              <includes>
+                <include>src/**/*.properties</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+            <format>
+              <includes>
+                <include>data/**/*.csv</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+            <format>
+              <includes>
+                <include>data/**/*.json</include>
+                <include>src/main/resources/**/*.json</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+            <format>
+              <includes>
+                <include>tools/**/*.py</include>
+              </includes>
+              <trimTrailingWhitespace />
+              <endWithNewline />
+            </format>
+          </formats>
+        </configuration>
 
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+        <executions>
+          <execution>
+            <id>spotless-check</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

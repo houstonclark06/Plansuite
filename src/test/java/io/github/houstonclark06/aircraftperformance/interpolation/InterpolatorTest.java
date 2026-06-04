@@ -28,6 +28,27 @@ class InterpolatorTest {
   }
 
   @Test
+  void interpolateLinear_whenInputIsNaN_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () -> Interpolator.interpolateLinear(Double.NaN, 0, 0, 10, 100));
+  }
+
+  @Test
+  void interpolateLinear_whenInputIsPositiveInfinity_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () -> Interpolator.interpolateLinear(Double.POSITIVE_INFINITY, 0, 0, 10, 100));
+  }
+
+  @Test
+  void interpolateLinear_whenInputIsNegativeInfinity_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () -> Interpolator.interpolateLinear(Double.NEGATIVE_INFINITY, 0, 0, 10, 100));
+  }
+
+  @Test
   void interpolateLinear_whenXEqualsLowerBound_returnsLowerY() {
     double result = Interpolator.interpolateLinear(0, 0, 0, 10, 100);
     assertEquals(0, result, TOLERANCE);
@@ -87,6 +108,33 @@ class InterpolatorTest {
         IllegalArgumentException.class,
         () ->
             Interpolator.interpolateBilinear(3200, 3000, 4000, 25, 10, 20, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenInputIsNaN_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(
+                3200, 3000, 4000, Double.NaN, 10, 20, 1050, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenInputIsPositiveInfinity_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(
+                3200, 3000, 4000, 15, 10, 20, Double.POSITIVE_INFINITY, 1150, 1130, 1240));
+  }
+
+  @Test
+  void interpolateBilinear_whenInputIsNegativeInfinity_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () ->
+            Interpolator.interpolateBilinear(
+                3200, 3000, 4000, 15, 10, 20, 1050, 1150, Double.NEGATIVE_INFINITY, 1240));
   }
 
   @Test
