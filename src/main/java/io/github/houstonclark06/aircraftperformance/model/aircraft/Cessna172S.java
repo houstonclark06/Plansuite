@@ -5,7 +5,7 @@ import java.util.Objects;
 
 /** Represents a Cessna 172S aircraft. */
 public class Cessna172S extends Aircraft {
-  private Cessna172SWeightAndBalance weightAndBalanceProfile;
+  private final Cessna172SWeightAndBalance weightAndBalanceProfile;
 
   public Cessna172S(String tailNumber, Cessna172SWeightAndBalance weightAndBalanceProfile) {
     super(tailNumber);

@@ -32,7 +32,7 @@ public final class Validation {
 
   public static String requireNonBlank(String value, String name) {
     if (value == null || value.isBlank()) {
-      throw new IllegalArgumentException(name + " cannot be blank");
+      throw new IllegalArgumentException(name + " cannot be null or blank");
     }
 
     return value;
