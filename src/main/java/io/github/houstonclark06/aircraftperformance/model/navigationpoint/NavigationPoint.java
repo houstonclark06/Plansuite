@@ -1,12 +1,12 @@
-package io.github.houstonclark06.aircraftperformance.model.mappoint;
+package io.github.houstonclark06.aircraftperformance.model.navigationpoint;
 
 import io.github.houstonclark06.aircraftperformance.validation.Validation;
 
 /** Represents a generic navigable point on a pilot map. */
-public abstract class MapPoint {
+public abstract class NavigationPoint {
   private final String userGeneratedLabel;
 
-  public MapPoint(String userGeneratedLabel) {
+  public NavigationPoint(String userGeneratedLabel) {
     this.userGeneratedLabel = Validation.requireNonBlank(userGeneratedLabel, "userGeneratedLabel");
   }
 }
