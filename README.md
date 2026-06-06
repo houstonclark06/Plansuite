@@ -1,6 +1,6 @@
-# Aircraft Performance
+# Plansuite
 
-Aircraft Performance is a Java project for aircraft performance calculations. It uses POH tables and interpolation to calculate important flight data. 
+Plansuite is a Java project for aircraft performance calculations. It uses POH tables and interpolation to calculate important flight data. 
 
 ## Project Goals
 
