@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.houstonclark06</groupId>
-  <artifactId>Plansuite</artifactId>
+  <artifactId>plansuite</artifactId>
   <version>0.1.0-SNAPSHOT</version>
 
   <name>Plansuite</name>
@@ -38,13 +38,18 @@
     <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.outputTimestamp>2026-06-11T00:00:00Z</project.build.outputTimestamp>
 
     <logback.version>1.5.32</logback.version>
     <junit.version>5.12.0</junit.version>
 
+    <maven.clean.plugin.version>3.2.0</maven.clean.plugin.version>
+    <maven.resources.plugin.version>3.4.0</maven.resources.plugin.version>
+    <maven.jar.plugin.version>3.5.0</maven.jar.plugin.version>
     <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
     <maven.surefire.version>3.5.2</maven.surefire.version>
     <maven.enforcer.version>3.5.0</maven.enforcer.version>
+    <maven.javadoc.plugin.version>3.12.0</maven.javadoc.plugin.version>
     <spotless.version>2.43.0</spotless.version>
     <google-java-format.version>1.28.0</google-java-format.version>
 
@@ -74,6 +79,24 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>${maven.clean.plugin.version}</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>${maven.resources.plugin.version}</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>${maven.jar.plugin.version}</version>
+      </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
@@ -118,6 +141,26 @@
       </plugin>
 
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>${maven.javadoc.plugin.version}</version>
+
+        <configuration>
+          <failOnWarnings>true</failOnWarnings>
+        </configuration>
+
+        <executions>
+          <execution>
+            <id>validate-javadocs</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>javadoc</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
         <version>${spotless.version}</version>
@@ -136,45 +179,16 @@
           <formats>
             <format>
               <includes>
-                <include>pom.xml</include>
-                <include>src/**/*.xml</include>
-              </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
-            </format>
-            <format>
-              <includes>
+                <include>LICENSE</include>
                 <include>README.md</include>
+                <include>pom.xml</include>
                 <include>tools/**/*.md</include>
-              </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
-            </format>
-            <format>
-              <includes>
-                <include>src/**/*.properties</include>
-              </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
-            </format>
-            <format>
-              <includes>
-                <include>data/**/*.csv</include>
-              </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
-            </format>
-            <format>
-              <includes>
-                <include>data/**/*.json</include>
-                <include>src/main/resources/**/*.json</include>
-              </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
-            </format>
-            <format>
-              <includes>
                 <include>tools/**/*.py</include>
+                <include>src/**/*.xml</include>
+                <include>src/**/*.properties</include>
+                <include>src/main/resources/**/*.json</include>
+                <include>data/**/*.csv</include>
+                <include>data/**/*.json</include>
               </includes>
               <trimTrailingWhitespace />
               <endWithNewline />

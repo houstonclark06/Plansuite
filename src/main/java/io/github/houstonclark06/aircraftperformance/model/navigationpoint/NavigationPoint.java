@@ -4,9 +4,25 @@ import io.github.houstonclark06.aircraftperformance.validation.Validation;
 
 /** Represents a generic navigable point on a pilot map. */
 public abstract class NavigationPoint {
-  private final String userGeneratedLabel;
+  private final String label;
 
-  public NavigationPoint(String userGeneratedLabel) {
-    this.userGeneratedLabel = Validation.requireNonBlank(userGeneratedLabel, "userGeneratedLabel");
+  /**
+   * Creates a NavigationPoint.
+   *
+   * @param label the label of the NavigationPoint
+   * @throws IllegalArgumentException if {@code label} is null or blank
+   */
+  public NavigationPoint(String label) {
+    Validation.requireNonBlank(label, "label");
+    this.label = label.strip();
+  }
+
+  /**
+   * Gets the label.
+   *
+   * @return the label of the NavigationPoint
+   */
+  public String getLabel() {
+    return label;
   }
 }

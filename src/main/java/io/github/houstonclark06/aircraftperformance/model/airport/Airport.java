@@ -4,7 +4,13 @@ import io.github.houstonclark06.aircraftperformance.model.navigationpoint.Naviga
 
 /** Represents an airport and important data belonging to it. */
 public class Airport extends NavigationPoint {
-  public Airport(String userGeneratedLabel) {
-    super(userGeneratedLabel);
+
+  /**
+   * Creates an Airport.
+   *
+   * @param label the user-generated label for the Airport
+   */
+  public Airport(String label) {
+    super(label);
   }
 }

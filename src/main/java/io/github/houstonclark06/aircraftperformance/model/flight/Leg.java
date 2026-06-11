@@ -8,7 +8,15 @@ class Leg {
   private final NavigationPoint startPoint;
   private final NavigationPoint endPoint;
 
-  private Leg(NavigationPoint startPoint, NavigationPoint endPoint) {
+  /**
+   * Creates a Leg.
+   *
+   * @param startPoint the NavigationPoint at the beginning of the leg
+   * @param endPoint the NavigationPoint at the end of the leg
+   * @throws NullPointerException if {@code startPoint == null}
+   * @throws NullPointerException if {@code endPoint == null}
+   */
+  Leg(NavigationPoint startPoint, NavigationPoint endPoint) {
     this.startPoint = Objects.requireNonNull(startPoint);
     this.endPoint = Objects.requireNonNull(endPoint);
   }
