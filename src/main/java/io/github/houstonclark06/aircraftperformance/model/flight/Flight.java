@@ -2,11 +2,13 @@ package io.github.houstonclark06.aircraftperformance.model.flight;
 
 import io.github.houstonclark06.aircraftperformance.model.airport.Airport;
 import io.github.houstonclark06.aircraftperformance.model.navigationpoint.NavigationPoint;
+import io.github.houstonclark06.aircraftperformance.model.weatherbriefing.WeatherBriefing;
 import io.github.houstonclark06.aircraftperformance.validation.Validation;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Objects;
+import java.util.Optional;
 
 /** Represents a flight between two airports. */
 public class Flight {
@@ -19,6 +21,8 @@ public class Flight {
   private final Airport destination;
 
   private final LinkedHashMap<String, Airport> alternateAirports;
+
+  private WeatherBriefing briefing;
 
   /** Private constructor for flight, supports FlightDraft based on Java builder pattern. */
   private Flight(FlightDraft draft) {
@@ -139,5 +143,25 @@ public class Flight {
     public Flight build() {
       return new Flight(this);
     }
+  }
+
+  /**
+   * Sets the weather briefing.
+   *
+   * @param briefing the new briefing
+   * @throws NullPointerException if {@code briefing == null}
+   */
+  public void setWeatherBriefing(WeatherBriefing briefing) {
+    this.briefing = Objects.requireNonNull(briefing);
+  }
+
+  /**
+   * Gets the briefing.
+   *
+   * @return an Optional containing the current weather briefing, or an empty Optional if no
+   *     briefing has been generated or attached to the flight plan
+   */
+  public Optional<WeatherBriefing> getWeatherBriefing() {
+    return Optional.ofNullable(this.briefing);
   }
 }

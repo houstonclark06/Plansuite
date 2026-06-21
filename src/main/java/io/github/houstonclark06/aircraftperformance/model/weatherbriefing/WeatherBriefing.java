@@ -21,6 +21,7 @@ public abstract class WeatherBriefing {
   protected WeatherBriefing(Clock clock, Flight flight) {
     this.timestamp = Instant.now(Objects.requireNonNull(clock, "clock cannot be null"));
     this.flight = Objects.requireNonNull(flight);
+    flight.setWeatherBriefing(this);
   }
 
   /**
