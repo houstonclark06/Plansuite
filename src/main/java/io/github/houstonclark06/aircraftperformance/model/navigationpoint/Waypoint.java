@@ -8,7 +8,7 @@ class Waypoint extends NavigationPoint {
    *
    * @param label the label of the Waypoint
    */
-  private Waypoint(String label) {
+  Waypoint(String label) {
     super(label);
   }
 }

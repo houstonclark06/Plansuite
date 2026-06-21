@@ -16,6 +16,13 @@ class InterpolatorTest {
   }
 
   @Test
+  void interpolateLinear_whenXValuesAreNegativeAndPositiveZero_throwsIllegalArgumentException() {
+    assertThrows(
+        IllegalArgumentException.class,
+        () -> Interpolator.interpolateLinear(0.0, -0.0, 1.0, 0.0, 2.0));
+  }
+
+  @Test
   void interpolateLinear_whenXIsAboveRange_throwsIllegalArgumentException() {
     assertThrows(
         IllegalArgumentException.class, () -> Interpolator.interpolateLinear(11, 0, 0, 10, 100));

@@ -5,7 +5,7 @@ Input:
     data/raw/*.csv
 
 Output:
-    data/converted/*.json
+    src/main/resources/pohperformancedata/cessna172s/*.json
 
 Initial utility scaffold generated with AI assistance and reviewed manually.
 """
@@ -16,7 +16,7 @@ from pathlib import Path
 
 
 RAW_DIR = Path("data/raw")
-OUT_DIR = Path("data/converted")
+OUT_DIR = Path("src/main/resources/pohperformancedata/cessna172s")
 
 
 def convert_value(value: str):
@@ -54,6 +54,7 @@ def convert_csv_file(csv_file: Path) -> None:
 
     with output_file.open("w", encoding="utf-8") as file:
         json.dump(rows, file, indent=2)
+        file.write("\n")
 
     print(f"Converted {csv_file} -> {output_file}")
 

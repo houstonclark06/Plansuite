@@ -17,7 +17,7 @@ data/raw/*.csv
 ### Output
 
 ```text
-data/converted/*.json
+src/main/resources/pohperformancedata/cessna172s/*.json
 ```
 
 ### Purpose

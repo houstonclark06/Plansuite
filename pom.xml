@@ -147,6 +147,7 @@
 
         <configuration>
           <failOnWarnings>true</failOnWarnings>
+          <show>package</show>
         </configuration>
 
         <executions>

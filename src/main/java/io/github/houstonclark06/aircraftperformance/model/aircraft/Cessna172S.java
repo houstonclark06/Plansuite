@@ -12,6 +12,7 @@ public class Cessna172S extends Aircraft {
    *
    * @param tailNumber the tail number
    * @param weightAndBalanceProfile the weight and balance profile
+   * @throws IllegalArgumentException if {@code tailNumber} is null or blank
    * @throws NullPointerException if {@code weightAndBalanceProfile == null}
    */
   public Cessna172S(String tailNumber, Cessna172SWeightAndBalance weightAndBalanceProfile) {

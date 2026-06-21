@@ -1,5 +1,6 @@
 [
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -9,6 +10,7 @@
     "fuel_flow_gph": 11.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "standard_isa",
@@ -18,6 +20,7 @@
     "fuel_flow_gph": 10.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -27,6 +30,7 @@
     "fuel_flow_gph": 9.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -36,6 +40,7 @@
     "fuel_flow_gph": 10.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -45,6 +50,7 @@
     "fuel_flow_gph": 9.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -54,6 +60,7 @@
     "fuel_flow_gph": 9.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -63,6 +70,7 @@
     "fuel_flow_gph": 9.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -72,6 +80,7 @@
     "fuel_flow_gph": 9.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -81,6 +90,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -90,6 +100,7 @@
     "fuel_flow_gph": 8.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -99,6 +110,7 @@
     "fuel_flow_gph": 8.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -108,6 +120,7 @@
     "fuel_flow_gph": 7.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -117,6 +130,7 @@
     "fuel_flow_gph": 7.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "standard_isa",
@@ -126,6 +140,7 @@
     "fuel_flow_gph": 7.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -135,6 +150,7 @@
     "fuel_flow_gph": 6.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -144,6 +160,7 @@
     "fuel_flow_gph": 6.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "standard_isa",
@@ -153,6 +170,7 @@
     "fuel_flow_gph": 6.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 2000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -162,6 +180,7 @@
     "fuel_flow_gph": 6.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -171,6 +190,7 @@
     "fuel_flow_gph": 11.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "standard_isa",
@@ -180,6 +200,7 @@
     "fuel_flow_gph": 10.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -189,6 +210,7 @@
     "fuel_flow_gph": 9.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -198,6 +220,7 @@
     "fuel_flow_gph": 10.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "standard_isa",
@@ -207,6 +230,7 @@
     "fuel_flow_gph": 9.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2550,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -216,6 +240,7 @@
     "fuel_flow_gph": 9.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -225,6 +250,7 @@
     "fuel_flow_gph": 10.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -234,6 +260,7 @@
     "fuel_flow_gph": 9.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -243,6 +270,7 @@
     "fuel_flow_gph": 8.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -252,6 +280,7 @@
     "fuel_flow_gph": 9.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -261,6 +290,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -270,6 +300,7 @@
     "fuel_flow_gph": 8.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -279,6 +310,7 @@
     "fuel_flow_gph": 8.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -288,6 +320,7 @@
     "fuel_flow_gph": 7.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -297,6 +330,7 @@
     "fuel_flow_gph": 7.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -306,6 +340,7 @@
     "fuel_flow_gph": 7.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "standard_isa",
@@ -315,6 +350,7 @@
     "fuel_flow_gph": 7.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -324,6 +360,7 @@
     "fuel_flow_gph": 6.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -333,6 +370,7 @@
     "fuel_flow_gph": 6.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "standard_isa",
@@ -342,6 +380,7 @@
     "fuel_flow_gph": 6.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 4000,
     "engine_speed_rpm": 2100,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -351,6 +390,7 @@
     "fuel_flow_gph": 6.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -360,6 +400,7 @@
     "fuel_flow_gph": 11.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "standard_isa",
@@ -369,6 +410,7 @@
     "fuel_flow_gph": 10.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -378,6 +420,7 @@
     "fuel_flow_gph": 9.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -387,6 +430,7 @@
     "fuel_flow_gph": 10.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "standard_isa",
@@ -396,6 +440,7 @@
     "fuel_flow_gph": 9.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -405,6 +450,7 @@
     "fuel_flow_gph": 9.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -414,6 +460,7 @@
     "fuel_flow_gph": 9.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -423,6 +470,7 @@
     "fuel_flow_gph": 9.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -432,6 +480,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -441,6 +490,7 @@
     "fuel_flow_gph": 8.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -450,6 +500,7 @@
     "fuel_flow_gph": 8.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -459,6 +510,7 @@
     "fuel_flow_gph": 7.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -468,6 +520,7 @@
     "fuel_flow_gph": 7.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -477,6 +530,7 @@
     "fuel_flow_gph": 7.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -486,6 +540,7 @@
     "fuel_flow_gph": 7.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -495,6 +550,7 @@
     "fuel_flow_gph": 7.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "standard_isa",
@@ -504,6 +560,7 @@
     "fuel_flow_gph": 6.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 6000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -513,6 +570,7 @@
     "fuel_flow_gph": 6.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -522,6 +580,7 @@
     "fuel_flow_gph": 11.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "standard_isa",
@@ -531,6 +590,7 @@
     "fuel_flow_gph": 10.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -540,6 +600,7 @@
     "fuel_flow_gph": 9.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -549,6 +610,7 @@
     "fuel_flow_gph": 10.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "standard_isa",
@@ -558,6 +620,7 @@
     "fuel_flow_gph": 9.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -567,6 +630,7 @@
     "fuel_flow_gph": 9.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -576,6 +640,7 @@
     "fuel_flow_gph": 10.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "standard_isa",
@@ -585,6 +650,7 @@
     "fuel_flow_gph": 9.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -594,6 +660,7 @@
     "fuel_flow_gph": 8.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -603,6 +670,7 @@
     "fuel_flow_gph": 9.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -612,6 +680,7 @@
     "fuel_flow_gph": 8.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -621,6 +690,7 @@
     "fuel_flow_gph": 8.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -630,6 +700,7 @@
     "fuel_flow_gph": 8.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -639,6 +710,7 @@
     "fuel_flow_gph": 7.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -648,6 +720,7 @@
     "fuel_flow_gph": 7.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -657,6 +730,7 @@
     "fuel_flow_gph": 7.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -666,6 +740,7 @@
     "fuel_flow_gph": 7.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -675,6 +750,7 @@
     "fuel_flow_gph": 6.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -684,6 +760,7 @@
     "fuel_flow_gph": 6.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "standard_isa",
@@ -693,6 +770,7 @@
     "fuel_flow_gph": 6.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 8000,
     "engine_speed_rpm": 2200,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -702,6 +780,7 @@
     "fuel_flow_gph": 6.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -711,6 +790,7 @@
     "fuel_flow_gph": 10.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "standard_isa",
@@ -720,6 +800,7 @@
     "fuel_flow_gph": 9.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2700,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -729,6 +810,7 @@
     "fuel_flow_gph": 9.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -738,6 +820,7 @@
     "fuel_flow_gph": 10.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "standard_isa",
@@ -747,6 +830,7 @@
     "fuel_flow_gph": 9.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -756,6 +840,7 @@
     "fuel_flow_gph": 8.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -765,6 +850,7 @@
     "fuel_flow_gph": 9.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "standard_isa",
@@ -774,6 +860,7 @@
     "fuel_flow_gph": 9.0
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -783,6 +870,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -792,6 +880,7 @@
     "fuel_flow_gph": 8.7
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -801,6 +890,7 @@
     "fuel_flow_gph": 8.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -810,6 +900,7 @@
     "fuel_flow_gph": 7.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -819,6 +910,7 @@
     "fuel_flow_gph": 7.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -828,6 +920,7 @@
     "fuel_flow_gph": 7.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -837,6 +930,7 @@
     "fuel_flow_gph": 7.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -846,6 +940,7 @@
     "fuel_flow_gph": 7.2
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -855,6 +950,7 @@
     "fuel_flow_gph": 6.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 10000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -864,6 +960,7 @@
     "fuel_flow_gph": 6.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -873,6 +970,7 @@
     "fuel_flow_gph": 9.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "standard_isa",
@@ -882,6 +980,7 @@
     "fuel_flow_gph": 8.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2650,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -891,6 +990,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -900,6 +1000,7 @@
     "fuel_flow_gph": 9.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "standard_isa",
@@ -909,6 +1010,7 @@
     "fuel_flow_gph": 8.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2600,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -918,6 +1020,7 @@
     "fuel_flow_gph": 8.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -927,6 +1030,7 @@
     "fuel_flow_gph": 8.3
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "standard_isa",
@@ -936,6 +1040,7 @@
     "fuel_flow_gph": 7.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2500,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -945,6 +1050,7 @@
     "fuel_flow_gph": 7.4
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -954,6 +1060,7 @@
     "fuel_flow_gph": 7.5
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "standard_isa",
@@ -963,6 +1070,7 @@
     "fuel_flow_gph": 7.1
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2400,
     "outside_air_temperature_condition": "isa_plus_20_c",
@@ -972,6 +1080,7 @@
     "fuel_flow_gph": 6.8
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_minus_20_c",
@@ -981,6 +1090,7 @@
     "fuel_flow_gph": 6.9
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "standard_isa",
@@ -990,6 +1100,7 @@
     "fuel_flow_gph": 6.6
   },
   {
+    "aircraft_weight_lb": 2550,
     "pressure_altitude_ft": 12000,
     "engine_speed_rpm": 2300,
     "outside_air_temperature_condition": "isa_plus_20_c",

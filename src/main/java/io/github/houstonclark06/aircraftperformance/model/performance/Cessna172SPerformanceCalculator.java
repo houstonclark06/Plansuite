@@ -10,6 +10,16 @@ final class Cessna172SPerformanceCalculator {
     throw new AssertionError("Cannot be instantiated.");
   }
 
+  /**
+   * Calculates short field takeoff distance.
+   *
+   * @param aircraft the aircraft
+   * @param weatherBriefing the weather briefing
+   * @return the calculated short field takeoff distance
+   * @throws NullPointerException if {@code aircraft == null}
+   * @throws NullPointerException if {@code weatherBriefing == null}
+   * @throws UnsupportedOperationException always until this method is complete
+   */
   static ShortFieldTakeoffDistance getShortFieldTakeoffDistance(
       Cessna172S aircraft, WeatherBriefing weatherBriefing) {
 

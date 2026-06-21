@@ -18,8 +18,10 @@ public final class Interpolator {
    * @param x1 the second x-value
    * @param y1 the y-value corresponding to {@code x1}
    * @return the interpolated y-value at {@code x}
+   * @throws IllegalArgumentException if any argument is NaN or infinite
    * @throws IllegalArgumentException if {@code x0 == x1}
-   * @throws IllegalArgumentException if {@code x} is outside of x0 to x1 range
+   * @throws IllegalArgumentException if {@code x} is outside the inclusive range between {@code x0}
+   *     and {@code x1}
    */
   public static double interpolateLinear(double x, double x0, double y0, double x1, double y1) {
 
@@ -31,7 +33,7 @@ public final class Interpolator {
     y1 = Validation.requireFinite(y1, "y1");
 
     // Exception if x0 == x1
-    if (Double.compare(x0, x1) == 0) {
+    if (x0 == x1) {
       throw new IllegalArgumentException("x0 and x1 must be different values (forming a range).");
     }
 
@@ -65,9 +67,11 @@ public final class Interpolator {
    * @param q21 the value at {@code (x1, y0)}
    * @param q22 the value at {@code (x1, y1)}
    * @return the interpolated value at {@code (x, y)}
+   * @throws IllegalArgumentException if any argument is NaN or infinite
    * @throws IllegalArgumentException if {@code x0 == x1} or {@code y0 == y1}
-   * @throws IllegalArgumentException if {@code x} is outside of x0 to x1 range or {@code y} is
-   *     outside of y0 to y1 range
+   * @throws IllegalArgumentException if {@code x} is outside the inclusive range between {@code x0}
+   *     and {@code x1}, or {@code y} is outside the inclusive range between {@code y0} and {@code
+   *     y1}
    */
   public static double interpolateBilinear(
       double x,

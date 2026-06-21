@@ -9,7 +9,7 @@ public class Cessna172SWeightAndBalance implements WeightAndBalance {
   /**
    * Creates a Cessna172SWeightAndBalance.
    *
-   * @param takeoffWeight the takeoff weight
+   * @param takeoffWeight the takeoff weight, in pounds
    * @throws IllegalArgumentException if {@code takeoffWeight} is not positive and finite
    */
   public Cessna172SWeightAndBalance(double takeoffWeight) {
@@ -19,7 +19,7 @@ public class Cessna172SWeightAndBalance implements WeightAndBalance {
   /**
    * Gets the takeoff weight.
    *
-   * @return the takeoff weight of the Cessna172SWeightAndBalance profile
+   * @return the takeoff weight, in pounds
    */
   public double getTakeoffWeight() {
     return this.takeoffWeight;
