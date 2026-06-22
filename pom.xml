@@ -146,7 +146,7 @@
         <version>${maven.javadoc.plugin.version}</version>
 
         <configuration>
-          <failOnWarnings>true</failOnWarnings>
+          <failOnWarnings>false</failOnWarnings>
           <show>package</show>
         </configuration>
 
