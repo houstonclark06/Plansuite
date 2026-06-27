@@ -14,10 +14,19 @@ import java.util.Objects;
 
 /** Represents a weather briefing entered manually by user. */
 class UserGeneratedWeatherBriefing extends WeatherBriefing {
-  UserGeneratedWeatherBriefing(UserGeneratedWeatherBriefingDraft draft) {
+
+  /**
+   * Private constructor for UserGeneratedWeatherBriefing, supports
+   * UserGeneratedWeatherBriefingDraft according to Java builder pattern.
+   */
+  private UserGeneratedWeatherBriefing(UserGeneratedWeatherBriefingDraft draft) {
     super(draft.clock, draft.flight);
   }
 
+  /**
+   * Represents a mutable draft for a UserGeneratedWeatherBriefing, based on the Java builder
+   * pattern.
+   */
   static class UserGeneratedWeatherBriefingDraft {
     private final Clock clock;
     private final Flight flight;
@@ -27,6 +36,12 @@ class UserGeneratedWeatherBriefing extends WeatherBriefing {
     private final LinkedHashMap<FlightPortion, FlightPortionWeatherBriefingDataDraft>
         routeWeatherBriefingDataDrafts;
 
+    /**
+     * Creates a UserGeneratedWeatherBriefingDraft.
+     *
+     * @param clock the clock for generating a timestamp
+     * @param flight the flight the {@code UserGeneratedWeatherBriefingDraft} belongs to
+     */
     UserGeneratedWeatherBriefingDraft(Clock clock, Flight flight) {
       this.clock = Objects.requireNonNull(clock);
       this.flight = Objects.requireNonNull(flight);

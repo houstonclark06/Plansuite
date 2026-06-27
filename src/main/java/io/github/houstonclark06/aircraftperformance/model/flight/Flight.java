@@ -66,7 +66,7 @@ public class Flight {
   /**
    * Gets the legs.
    *
-   * @return a List<Leg> containing the legs
+   * @return a {@code List<Leg>} containing the legs
    */
   public List<Leg> getLegs() {
     return new LinkedList<Leg>(this.legs);
