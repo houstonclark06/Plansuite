@@ -6,6 +6,7 @@ import io.github.houstonclark06.aircraftperformance.model.weatherbriefing.Weathe
 import io.github.houstonclark06.aircraftperformance.validation.Validation;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 import java.util.Objects;
 import java.util.Optional;
@@ -23,6 +24,53 @@ public class Flight {
   private final LinkedHashMap<String, Airport> alternateAirports;
 
   private WeatherBriefing briefing;
+
+  /**
+   * Sets the weather briefing.
+   *
+   * @param briefing the new briefing
+   * @throws NullPointerException if {@code briefing == null}
+   */
+  public void setWeatherBriefing(WeatherBriefing briefing) {
+    this.briefing = Objects.requireNonNull(briefing);
+  }
+
+  /**
+   * Gets the briefing.
+   *
+   * @return an Optional containing the current weather briefing, or an empty Optional if no
+   *     briefing has been generated or attached to the flight plan
+   */
+  public Optional<WeatherBriefing> getWeatherBriefing() {
+    return Optional.ofNullable(this.briefing);
+  }
+
+  /**
+   * Gets the departure.
+   *
+   * @return the departure
+   */
+  public Airport getDeparture() {
+    return this.departure;
+  }
+
+  /**
+   * Gets the destination.
+   *
+   * @return the destination
+   */
+  public Airport getDestination() {
+    return this.destination;
+  }
+
+  /**
+   * Gets the legs.
+   *
+   * @return a List<Leg> containing the legs
+   */
+  public List<Leg> getLegs() {
+    return new LinkedList<Leg>(this.legs);
+  }
 
   /** Private constructor for flight, supports FlightDraft based on Java builder pattern. */
   private Flight(FlightDraft draft) {
@@ -143,25 +191,5 @@ public class Flight {
     public Flight build() {
       return new Flight(this);
     }
-  }
-
-  /**
-   * Sets the weather briefing.
-   *
-   * @param briefing the new briefing
-   * @throws NullPointerException if {@code briefing == null}
-   */
-  public void setWeatherBriefing(WeatherBriefing briefing) {
-    this.briefing = Objects.requireNonNull(briefing);
-  }
-
-  /**
-   * Gets the briefing.
-   *
-   * @return an Optional containing the current weather briefing, or an empty Optional if no
-   *     briefing has been generated or attached to the flight plan
-   */
-  public Optional<WeatherBriefing> getWeatherBriefing() {
-    return Optional.ofNullable(this.briefing);
   }
 }

@@ -1,10 +1,11 @@
 package io.github.houstonclark06.aircraftperformance.model.flight;
 
+import io.github.houstonclark06.aircraftperformance.model.flightportion.FlightPortion;
 import io.github.houstonclark06.aircraftperformance.model.navigationpoint.NavigationPoint;
 import java.util.Objects;
 
 /** Represents a leg (straight line portion) of a flight between two navigation points. */
-class Leg {
+public class Leg implements FlightPortion {
   private final NavigationPoint startPoint;
   private final NavigationPoint endPoint;
 
@@ -16,7 +17,7 @@ class Leg {
    * @throws NullPointerException if {@code startPoint == null}
    * @throws NullPointerException if {@code endPoint == null}
    */
-  Leg(NavigationPoint startPoint, NavigationPoint endPoint) {
+  public Leg(NavigationPoint startPoint, NavigationPoint endPoint) {
     this.startPoint = Objects.requireNonNull(startPoint);
     this.endPoint = Objects.requireNonNull(endPoint);
   }
